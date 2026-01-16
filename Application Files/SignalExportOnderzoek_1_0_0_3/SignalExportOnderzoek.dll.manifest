@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SignalExportOnderzoek.exe" version="1.0.0.3" publicKeyToken="5ed5b1c9851fff30" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Huub\Media\IcoonHVA3.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17328">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zzO1lQX4QWDyBUhh0MlDSBTEFbnwrlf2dVGyQTHQhgs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Huub\Media\IcoonHVA3.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AVdQOtuu8wXH9db4dLs908EJo1p548Q/abwBSXNCZF8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SignalExportOnderzoek.deps.json" size="455">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0L1s1Ug9Z4sOhkj3eOKApL/AAVHHYgtqaciz6v1MoqQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SignalExportOnderzoek.dll" size="252848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tx/kYzsM1e/FuggcndX4yxg5sOowS/j0WA1Tr1/14IE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SignalExportOnderzoek.exe" size="252336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IHu2I+fGGlXbpArifuYG9JKXJPy7E767pUhmrWF7enk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SignalExportOnderzoek.runtimeconfig.json" size="429">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c7NzhLsAHnjbIBTTKHUOspkDk3Ev1jzQDA9Blls9vpY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HUUBSPC\hvame" issuerKeyHash="84679062f262cee9e9539a70b73cfdd92f31fc3b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6PcksegUJQloujllG7QqhSrp0U3BdoMD9Oi9EVIJEtY=</DigestValue></Reference></SignedInfo><SignatureValue>VYGTashm0PBaWghfzNPMFT4iKBDfOBFuSK2p8EiTCG8/GeAVIZTIc+naOkKfd7Y3rNXyGr+kI4q2PcCD9Ewo0bOsiWr5MF8Qau2xgU6LthOHA3Gj9GUN9gUso27uMaidQFApibjq/PKNaH1GmnFqPYb6hbOIXJ/rHi9ITo1bn0s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>loSzwkl7b5UOW3ngeo0XsRsKRQ1wDURt+6tJNHq+ZDLQ8pBctQnyH0imgU0OLMVc/7cKIojoHbZF//qQmm6kkeze1NIWYTFH0P5AT50ACpdn2R5aAXIRToIUB/gBe5XU5TmB8arS+SfGNi0DZSxNJEEKhGH4XzXIfdVX9SDj0kE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d612095211bde8f4038376c14dd1e92a852ab41b6539ba68092514e8b124f7e8" Description="" Url=""><as:assemblyIdentity name="SignalExportOnderzoek.exe" version="1.0.0.3" publicKeyToken="5ed5b1c9851fff30" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HUUBSPC\hvame</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ISAgd+MohgGY+7oqp9HL55MoQMoqdvzMbM3hDPQ3NcQ=</DigestValue></Reference></SignedInfo><SignatureValue>iuwFLwjnS2IKYINfCIctv3t5CAShqHSNlx/un18wyRFx9N/k+2VEFo2Lqga8O52kBop93sJPm8h9YW5PhbwerF5bBkAz8IXcjkW5PYEJ4Tue/axC7X9KHpX51UydkqWlbB0mUnhJ414YYq/ODa5OSQ10/8+4ql+MVG/m3R2WBbQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>loSzwkl7b5UOW3ngeo0XsRsKRQ1wDURt+6tJNHq+ZDLQ8pBctQnyH0imgU0OLMVc/7cKIojoHbZF//qQmm6kkeze1NIWYTFH0P5AT50ACpdn2R5aAXIRToIUB/gBe5XU5TmB8arS+SfGNi0DZSxNJEEKhGH4XzXIfdVX9SDj0kE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQHaqWSVKMzrZMTC8zyfX07jANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASABVAFUAQgBTAFAAQwBcAGgAdgBhAG0AZTAeFw0yNjAxMTMyMDI5MTBaFw0yNzAxMTQwMjI5MTBaMCUxIzAhBgNVBAMeGgBIAFUAVQBCAFMAUABDAFwAaAB2AGEAbQBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWhLPCSXtvlQ5beeB6jRexGwpFDXANRG37q0k0er5kMtDykFy1CfIfSKaBTQ4sxVz/twoiiOgdtkX/+pCabqSR7N7U0hZhMUfQ/kBPnQAKl2fZHloBchFOghQH+AF7ldTlOYHxqtL5J8Y2LQNlLE0kQQqEYfhfNch91Vf1IOPSQQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABPEOCVIhfl+2dYac7xySviw7d0sxly3dMFZJEtN3EJxvbkEiUB0mMX7c0eImQ672eesn8y27Ft8E957w8ZLGNUDaTeH4J5oPegTPb9BHFHPK812eCpSoHuGBlKU4ciUEfFNlAjJwbCvh85f5hFOAqzizTEvzaVQrW7/SgJLQxCR</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
